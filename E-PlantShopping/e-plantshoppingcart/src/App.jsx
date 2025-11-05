@@ -23,6 +23,7 @@ import { Route, Router, Routes } from 'react-router-dom'
 import LandingPage from './pages/LandingPage'
 import Cart from './pages/Cart'
 import { Products } from './pages/Products'
+import CheckoutPage from './pages/CheckoutPage'
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
         <Route path="/" element={<LandingPage />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/products" element={<Products></Products>}></Route>
+        <Route path='/checkout' element={<CheckoutPage></CheckoutPage>}></Route>
       </Routes>
     
   )

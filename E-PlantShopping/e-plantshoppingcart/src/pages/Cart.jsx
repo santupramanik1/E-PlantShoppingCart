@@ -145,7 +145,7 @@ const Cart = () => {
                             >
                                 Continue Shopping
                             </button>
-                            <button className="bg-green-500 hover:bg-green-600 px-6 py-2 rounded-md text-white">
+                            <button onClick={()=>navigate("/checkout")} className="bg-green-500 hover:bg-green-600 px-6 py-2 rounded-md text-white">
                                 Checkout
                             </button>
                         </div>
